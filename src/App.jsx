@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import QRCode from "react-qr-code";
-
+import "./App.css"
 export default function App() {
   const [text, setText] = useState("");
   const [qrText, setQrText] = useState("");
@@ -55,6 +55,8 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     fontFamily: "Arial, sans-serif",
+
+
   },
   container: {
     position: "relative",
